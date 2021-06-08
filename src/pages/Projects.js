@@ -13,8 +13,8 @@ export function Projects(){
     }
 
     return(
-        <div>
+        <span className="project-card-container">
             {generateProjectCards()}
-        </div>
+        </span>
     )
 }

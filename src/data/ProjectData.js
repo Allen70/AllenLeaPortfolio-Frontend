@@ -8,7 +8,7 @@ export function ProjectData(){
             project_links: "https://github.com/Allen70/frontend-courageous-conversations https://github.com/Allen70/Backend-Courageous-Conversations",
         },
         {
-            name: "allidays",
+            name: "Allidays",
             description: "This website is intended to help the curious explore diversity of culture and attitudes around the world with cutting edge research.",
             tech_list: "React | React-Tooltips | react-svg-worldmap |  Ruby on Rails ",
             is_collaborative: false,
@@ -23,7 +23,7 @@ export function ProjectData(){
         },
         {
             name: "Virtual-Arcade",
-            description: "This website is for users to move avtars around a virtual arcade and interact with games, and other arcade objects.",
+            description: "This website is for users to move avatars around a virtual arcade and interact with games, and other arcade objects.",
             tech_list: "HTML5,CSS,JavaScript",
             is_collaborative: true,
             project_links: "https://github.com/Allen70/VirtualArcade-Frontend https://github.com/Allen70/VirtualArcade-Backend",

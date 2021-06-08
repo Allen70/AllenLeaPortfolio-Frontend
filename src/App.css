@@ -37,10 +37,19 @@ body{
     flex-direction: column;
     width: 300px;
 }
+.project-card-container{
+    display: flex;
+    flex-direction: row;
+}
 .project-card {
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 400px;
+    margin: 20px;
     box-shadow: 0px 0px 2px 2px green;
+}
+.project-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }

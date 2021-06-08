@@ -5,7 +5,7 @@ export function ProjectCard({project}){
         let links = project.project_links.split(' ')
         return links.map((link,index) => {
             return (
-                <span>
+                <span className="project-link">
                     <a href={link}>{index === 0? 'Frontend':'Backend'}</a>
                 </span>
             )
