@@ -1,17 +1,23 @@
-import './App.css';
-import { Home } from './pages/Home'
-import { Arcade } from './pages/Arcade'
-import { Navbar } from './components/Navbar'
 import { BrowserRouter as Router,  Route,  Switch } from 'react-router-dom'
 
+import './App.css';
+
+import { Home } from './pages/Home'
+import { Projects } from './pages/Projects'
+import { Contact } from './pages/Contact'
+
+import { Navbar } from './components/Navbar'
+
 function App() {
+
   return (
     <div className="App">
       <Router>
         <Navbar />
         <Switch>
           <Route exact path='/' render={(routerProps) => <Home {...routerProps}/>}/>
-          <Route exact path='/arcade' render={(routerProps) => <Arcade {...routerProps}/>}/>
+          <Route exact path='/projects' render={(routerProps) => <Projects {...routerProps}/>}/>
+          <Route exact path='/contact' render={(routerProps) => <Contact {...routerProps}/>}/>
         </Switch>
       </Router>
     </div>
