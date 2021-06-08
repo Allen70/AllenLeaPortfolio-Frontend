@@ -3,7 +3,6 @@ import { ProjectData } from '../data/ProjectData'
 
 export function Projects(){
 
-
     const generateProjectCards = () => {
         let PD = ProjectData()
         return PD.map((project) => {
@@ -11,10 +10,7 @@ export function Projects(){
                <ProjectCard project={project}/>
            )
        })
-
     }
-
-  
 
     return(
         <div>

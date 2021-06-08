@@ -1,5 +1,5 @@
 import { Link} from 'react-router-dom'
-
+import  resume  from '../data/resume.pdf'
 export function Navbar(){
     return(
         <div className="navbar">
@@ -7,7 +7,7 @@ export function Navbar(){
                 <Link to='/'>About</Link> 
                 <Link to='/projects'>Projects</Link> 
                 <Link to='/blogs'>Blogs</Link>
-                <Link to='/resume'>Resume</Link>
+                <Link to={resume} target="blank">Resume</Link>
                 <Link to='/contact'>Contact</Link>
             </nav>
         </div>
