@@ -20,7 +20,7 @@ function App() {
           <Route exact path='/projects' render={(routerProps) => <Projects {...routerProps}/>}/>
           <Route exact path='/contact' render={(routerProps) => <Contact {...routerProps}/>}/>
           <Route path='/blogs' component={() => { 
-              window.location.href = 'https://allenlea2007.medium.com/' 
+              window.open('https://allenlea2007.medium.com/')
               return null
           }}/>
  
