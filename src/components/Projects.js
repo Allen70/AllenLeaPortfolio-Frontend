@@ -37,12 +37,15 @@ export function Projects(props){
             return(
                 <div className='project-card'>
                     <span className='project-name'>
-                        {project.name + ' ' +type}
+                        {project.name}
                     </span>
                     <span className='project-mini-bar'>
                         {links}
                     </span>
-                    <div className='project-image'>
+                    <div className='project-image relative'>
+                        <span className='project-type absolute'>
+                            {type}
+                        </span>
                         {project.image}
                     </div>
                     <div className='project-description'>

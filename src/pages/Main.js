@@ -1,4 +1,5 @@
 import resume from '../data/resume.pdf'
+import { AboutMe } from '../components/AboutMe'
 import { Projects } from '../components/Projects'
 import { Contact } from '../components/Contact'
 export function Main(props){
@@ -14,9 +15,7 @@ export function Main(props){
                     <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
                 </span>
             </div>
-            <section id='about-me' className='about-me'>
-                
-            </section>
+            <AboutMe />
             <Projects />
             <Contact />
         </main>

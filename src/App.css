@@ -30,10 +30,25 @@ body{
     align-self: center;
 }
 
+.about-me {
+    position: relative;
+    height: fit-content;
+    margin-left: 20px;
+    display: flex;
+}
+
+
+.about-me .my-image {
+    width: 300px;
+    height: fit-content;
+    margin: 20px
+}
+
 .project-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
     height: fit-content;
 }
 
@@ -67,6 +82,10 @@ body{
     height: 200px;
 }
 
+.project-type {
+    right: 0;
+}
+
 .project-description {
     overflow: scroll;
     width: 100%;
@@ -74,7 +93,8 @@ body{
 }
 
 .project-tech {
-    position: relative;
+    height: 20px;
+    overflow: scroll;
 }
 
 .contact-links {
@@ -85,4 +105,12 @@ body{
 
 .contact-links a {
     margin: 0px 12px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
 }

@@ -2,7 +2,7 @@ export function ProjectData(){
     const projects = [
         {
             name: "Courageous Conversations",
-            image: 'image goes here',
+            image: "Images coming soon",
             description: "A website designed to assist people in having difficult conversation in a productive manner.",
             tech: "Vue.js | Socket.io | Node.js | Express.js | Ruby on Rails",
             isCollaborative: true,
@@ -10,7 +10,7 @@ export function ProjectData(){
         },
         {
             name: "Allidays",
-            image: 'image goes here',
+            image: "Images coming soon",
             description: "This website is intended to help the curious explore diversity of culture and attitudes around the world with cutting edge research.",
             tech: "React | React-Tooltips | react-svg-worldmap |  Ruby on Rails ",
             isCollaborative: false,
@@ -18,7 +18,7 @@ export function ProjectData(){
         },
         {
             name: "Rotten-Manga",
-            image: 'image goes here',
+            image: "Images coming soon",
             description: "This site allows for users and critics to rate manga based on numerous categories and for users to set their preferences so they get sorted results of manga that match their tastes",
             tech: "React | Ruby on Rails",
             isCollaborative: true,
@@ -26,7 +26,7 @@ export function ProjectData(){
         },
         {
             name: "Virtual-Arcade",
-            image: 'image goes here',
+            image: "Images coming soon",
             description: "This website is for users to move avatars around a virtual arcade and interact with games, and other arcade objects.",
             tech: "HTML5 | CSS | JavaScript",
             isCollaborative: true,
