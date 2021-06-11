@@ -27,7 +27,7 @@ export function ProjectData(){
         {
             name: "Virtual-Arcade",
             image: 'image goes here',
-            description: "This website is for users to move avtars around a virtual arcade and interact with games, and other arcade objects.",
+            description: "This website is for users to move avatars around a virtual arcade and interact with games, and other arcade objects.",
             tech: "HTML5 | CSS | JavaScript",
             isCollaborative: true,
             links: "https://github.com/Allen70/VirtualArcade-Frontend https://github.com/Allen70/VirtualArcade-Backend",
